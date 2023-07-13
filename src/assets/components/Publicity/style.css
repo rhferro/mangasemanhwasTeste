@@ -1,0 +1,16 @@
+.patrocinio {
+  margin-top: 10px;
+  /* margin-bottom: 0; */
+  width: 100px;
+  transition: 0.8s;
+}
+
+.patrocinio:hover {
+  width: 175px;
+}
+
+.publiRight {
+  position: fixed;
+  top: 8rem;
+  right: 50px;
+}

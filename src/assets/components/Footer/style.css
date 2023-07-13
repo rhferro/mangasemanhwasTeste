@@ -1,0 +1,45 @@
+#content {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 80px;
+  background-color: #b6b6b6ad;
+  transition: 0.6s;
+  overflow: hidden;
+}
+
+.iconsText {
+  font-size: 0.6rem;
+  transition: 0.4s;
+}
+.iconsText:hover {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#content:hover,
+#content.scroll-end {
+  height: 180px;
+  color: rgba(48, 28, 57, 255);
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.textColor {
+  color: rgba(48, 28, 57, 255);
+}
+.description {
+  text-align: right;
+  bottom: 0;
+  right: 0;
+  font-size: 0.8rem;
+}
+.icons {
+  padding-top: 15px;
+  width: 40px;
+}
+.icons:hover {
+  padding-top: 15px;
+  width: 60px;
+}

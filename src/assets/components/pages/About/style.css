@@ -1,0 +1,6 @@
+.imgLogo {
+  width: 170px;
+}
+.imgLogo:hover {
+  width: 200px;
+}

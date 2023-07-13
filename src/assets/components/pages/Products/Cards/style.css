@@ -1,0 +1,7 @@
+.imgCard {
+  width: 1rem;
+}
+
+.imgCard:hover {
+  width: 50rem;
+}
