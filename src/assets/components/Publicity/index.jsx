@@ -1,6 +1,10 @@
 // import React from "react";
 import { Container, Row, Col, Figure } from "react-bootstrap";
 
+import patrocinioLamen from "../../img/patrocinio-IMG/patrocinio-lámen-store.png";
+import patrocinioGoverno from "../../img/patrocinio-IMG/patrocinio-governo-federal.png";
+import patrocinioDescomplica from "../../img/patrocinio-IMG/patrocinio-descomplica.png";
+
 import "./style.css";
 
 const Publicity = () => {
@@ -15,7 +19,7 @@ const Publicity = () => {
             <Figure.Image
               className="patrocinio"
               alt="Restaurante de Ramen (Naruto)"
-              src="src\assets\img\patrocinio-IMG\patrocinio-lámen-store.png"
+              src={patrocinioLamen}
               rounded
             />
             <Figure.Caption>Ramen Restaurant</Figure.Caption>
@@ -26,7 +30,7 @@ const Publicity = () => {
             <Figure.Image
               className="patrocinio"
               alt="Governo Mundial (One Piece)"
-              src="src\assets\img\patrocinio-IMG\patrocinio-governo-federal.png"
+              src={patrocinioGoverno}
               rounded
             />
             <Figure.Caption>Governo Federal</Figure.Caption>
@@ -37,7 +41,7 @@ const Publicity = () => {
             <Figure.Image
               className="patrocinio"
               alt="Logo do Descomplica (Empresa real)"
-              src="src\assets\img\patrocinio-IMG\patrocinio-descomplica.png"
+              src={patrocinioDescomplica}
               rounded
             />
             <Figure.Caption>Descomplica</Figure.Caption>

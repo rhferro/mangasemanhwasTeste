@@ -1,5 +1,7 @@
 import { Col, Container, Image, Row } from "react-bootstrap";
-// import React from "react";
+
+import yo from "../../../img/img-team/programer-owner.jpg";
+import gpt from "../../../img/img-team/gpt-logo.png";
 
 const Team = () => {
   return (
@@ -7,11 +9,7 @@ const Team = () => {
       <h1>Sobre Nós</h1>
       <Row>
         <Col xs={6} md={4}>
-          <Image
-            className="imgLogo"
-            src="src\assets\img\img-team\programer-owner.jpg"
-            roundedCircle
-          />
+          <Image className="imgLogo" src={yo} roundedCircle />
         </Col>
         <Col>
           <br />
@@ -34,11 +32,7 @@ const Team = () => {
           </p>
         </Col>
         <Col xs={6} md={4}>
-          <Image
-            className="imgLogo"
-            src="src\assets\img\img-team\gpt-logo.png"
-            roundedCircle
-          />
+          <Image className="imgLogo" src={gpt} roundedCircle />
         </Col>
       </Row>
     </Container>

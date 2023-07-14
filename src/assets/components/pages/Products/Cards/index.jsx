@@ -1,6 +1,11 @@
 import { Card, CardGroup, Button } from "react-bootstrap";
-// Col, Row, , Figure
-// import React from "react";
+
+import OP01 from "../../../../img/products/OP0001.jpg";
+import NC01 from "../../../../img/products/NC0001.jpg";
+import B01 from "../../../../img/products/B0001.jpg";
+import TK01 from "../../../../img/products/TK0001.jpg";
+import SL01 from "../../../../img/products/SL0001.jpg";
+import DIT from "../../../../img/products/DJunji Ito.jpg";
 
 const Cards = () => {
   return (
@@ -11,11 +16,7 @@ const Cards = () => {
       <br />
       <CardGroup>
         <Card style={{ width: "14rem", margin: "0  10px 10px 0" }}>
-          <Card.Img
-            className="imgCard"
-            variant="top"
-            src="src\assets\img\products\OP0001.jpg"
-          />
+          <Card.Img className="imgCard" variant="top" src={OP01} />
           <Card.Body>
             <Card.Title>One Piece - Vol. 01</Card.Title>
             <Card.Text>R$ 14,50</Card.Text>
@@ -24,11 +25,7 @@ const Cards = () => {
         </Card>
 
         <Card style={{ width: "14rem", margin: "0  10px 10px 0" }}>
-          <Card.Img
-            variant="top"
-            src="src\assets\img\products\NC0001.jpg"
-            className="imgCard"
-          />
+          <Card.Img variant="top" src={NC01} className="imgCard" />
           <Card.Body>
             <Card.Title>Naruto Clássico - Vol. 01</Card.Title>
             <Card.Text>R$ 14,50</Card.Text>
@@ -37,7 +34,7 @@ const Cards = () => {
         </Card>
 
         <Card style={{ width: "14rem", margin: "0  10px 10px 0" }}>
-          <Card.Img variant="top" src="src/assets/img/products/B0001.jpg" />
+          <Card.Img variant="top" src={B01} />
           <Card.Body>
             <Card.Title>Bleach - Vol. 01</Card.Title>
             <Card.Text>R$ 14,50</Card.Text>
@@ -47,9 +44,9 @@ const Cards = () => {
       </CardGroup>
       <CardGroup>
         <Card style={{ width: "14rem", margin: "0  10px 10px 0" }}>
-          <Card.Img variant="top" src="src\assets\img\products\TK0001.jpg" />
+          <Card.Img variant="top" src={TK01} />
           <Card.Body>
-            <Card.Title>One Piece - Vol. 01</Card.Title>
+            <Card.Title>Toriko - Vol. 01</Card.Title>
             <Card.Text>R$ 21,50</Card.Text>
             <Button style={{ bottom: "2px" }} variant="primary">
               Comprar
@@ -58,7 +55,7 @@ const Cards = () => {
         </Card>
 
         <Card style={{ width: "14rem", margin: "0  10px 10px 0" }}>
-          <Card.Img variant="top" src="src\assets\img\products\SL0001.jpg" />
+          <Card.Img variant="top" src={SL01} />
           <Card.Body>
             <Card.Title>Solo Leveling - Vol. 01</Card.Title>
             <Card.Text>R$ 44,99</Card.Text>
@@ -67,10 +64,7 @@ const Cards = () => {
         </Card>
 
         <Card style={{ width: "14rem", margin: "0  10px 10px 0" }}>
-          <Card.Img
-            variant="top"
-            src="src\assets\img\products\DJunji Ito.jpg"
-          />
+          <Card.Img variant="top" src={DIT} />
           <Card.Body>
             <Card.Title>Dismorfos - Junji Ito - Vol. 01</Card.Title>
             <Card.Text>R$ 14,50</Card.Text>
