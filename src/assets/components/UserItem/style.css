@@ -1,0 +1,27 @@
+.imgshop {
+  width: 4rem;
+  margin-left: 0;
+}
+.imgshop:hover {
+  width: 4rem;
+}
+
+.colImg {
+  left: 0;
+  padding: 0;
+}
+.price {
+  text-align: center;
+}
+
+.removeButton {
+  width: 1.4rem;
+}
+.removeButton:hover {
+  width: 1.4rem;
+}
+
+.space {
+  width: 825px;
+  height: 155px;
+}

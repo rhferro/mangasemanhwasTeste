@@ -1,0 +1,35 @@
+.marginCard {
+  padding: 32px;
+}
+
+.card {
+  width: 200px;
+  height: 390;
+}
+
+.imgCard {
+  width: 160px;
+  transition: 0.6s;
+}
+
+.imgCard:hover {
+  width: 10rem;
+  text-decoration: none;
+}
+
+.imgShop {
+  width: 1.7rem;
+  transform: 1s;
+}
+.imgShop:hover {
+  width: 1.7rem;
+}
+.btn-buttom {
+  margin-bottom: 5px;
+  width: 6rem;
+  height: 50px;
+}
+
+.cart {
+  font-size: 0.8rem;
+}

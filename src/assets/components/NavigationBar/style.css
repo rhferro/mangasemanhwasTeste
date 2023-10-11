@@ -35,3 +35,16 @@ img:hover {
   transform: 0.8s;
   color: rgba(160, 215, 255, 255);
 }
+
+.btnPosition {
+  position: absolute;
+  right: 85px;
+}
+
+.imgShop {
+  width: 1.7rem;
+  transform: 1s;
+}
+.imgShop:hover {
+  width: 2rem;
+}

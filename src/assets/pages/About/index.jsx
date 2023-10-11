@@ -1,6 +1,6 @@
 import { Col, Container, Image, Row } from "react-bootstrap";
 
-import aboutIMG from "../../../img/logo/About_logo.png";
+import aboutIMG from "../../img/logo/About_logo.png";
 
 // import React from "react";
 import "./style.css";

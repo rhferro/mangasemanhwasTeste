@@ -1,10 +1,10 @@
 // import React from "react";
-import Carousel from "react-bootstrap/Carousel";
+import { Carousel, Col } from "react-bootstrap";
 
-import carrouselBiblio from "../../../img/carrousel-IMG/biblioteca-pessoal.png";
-import carrouselNegocie from "../../../img/carrousel-IMG/negocie.png";
-import carrouselClassifique from "../../../img/carrousel-IMG/classifique.png";
-import carrouselSeguranca from "../../../img/carrousel-IMG/seguranca.png";
+import carrouselBiblio from "../../img/carrousel-IMG/biblioteca-pessoal.png";
+import carrouselNegocie from "../../img/carrousel-IMG/negocie.png";
+import carrouselClassifique from "../../img/carrousel-IMG/classifique.png";
+import carrouselSeguranca from "../../img/carrousel-IMG/seguranca.png";
 
 import "./style.css";
 

@@ -1,7 +1,7 @@
 import { Col, Container, Image, Row } from "react-bootstrap";
 
-import yo from "../../../img/img-team/programer-owner.jpg";
-import gpt from "../../../img/img-team/gpt-logo.png";
+import yo from "../../img/img-team/programer-owner.jpg";
+import gpt from "../../img/img-team/gpt-logo.png";
 
 const Team = () => {
   return (

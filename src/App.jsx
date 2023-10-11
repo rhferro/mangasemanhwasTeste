@@ -1,14 +1,17 @@
-import NavigationBar from "./assets/components/NavigationBar";
-import Footer from "./assets/components/Footer";
-import MainContent from "./assets/components/MainContent";
-import Publicity from "./assets/components/Publicity";
-import About from "./assets/components/pages/About";
-import Products from "./assets/components/pages/Products";
-import Team from "./assets/components/pages/Team";
-
+import { Routes, Route } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
 
-import { Routes, Route } from "react-router-dom";
+//COMPONENTS
+import NavigationBar from "./assets/components/NavigationBar";
+import Footer from "./assets/components/Footer";
+import Publicity from "./assets/components/Publicity";
+
+//PAGES
+import MainContent from "./assets/pages/MainContent";
+import CarShop from "./assets/pages/CarShop";
+import About from "./assets/pages/About";
+import Products from "./assets/pages/Products";
+import Team from "./assets/pages/Team";
 
 import "./App.css";
 
@@ -19,12 +22,17 @@ function App() {
 
       <Container fluid>
         <Row>
-          <Col xs={10} className="carrouselPosition">
+          <Col
+            xs={12}
+            style={{ marginTop: "6rem" }}
+            className="carrouselPosition"
+          >
             <Routes>
               <Route path="/" element={<MainContent />} />
               <Route path="/about" element={<About />} />
               <Route path="/Products" element={<Products />} />
               <Route path="/Team" element={<Team />} />
+              <Route path="/Shop" element={<CarShop />} />
             </Routes>
           </Col>
 
@@ -33,7 +41,14 @@ function App() {
           </Col>
         </Row>
       </Container>
-      <Footer />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <Footer className="marginFooter" />
     </>
   );
 }

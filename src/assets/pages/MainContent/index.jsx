@@ -1,7 +1,5 @@
 // import React from "react";
-import Carrousel from "./Carrousel";
-
-import "./style.css";
+import Carrousel from "../../components/Carrousel";
 
 const MainContent = () => {
   return <Carrousel />;
